@@ -24,6 +24,11 @@ With TestMu AI (Formerly LambdaTest), you can run Mocha Add Status Tests across 
 - Node.js and npm (latest stable)
 - A TestMu AI (Formerly LambdaTest) account with your username and access key
 
+### Prerequisites
+
+- Node.js and npm (latest stable)
+- A TestMu AI (Formerly LambdaTest) account with your username and access key
+
 ## Configure test file
 
 Based on the result of test execution, either `lambda-status=failed` or `lambda-status=passed`  script has to be executed by the driver. This can written in the `afterEach` function in `describe` function in test file (refer to `single_test.js` for full code):
